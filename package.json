@@ -18,5 +18,7 @@
     "ago"
   ],
   "author": "Daniel Campos",
-  "license": "ISC"
+  "license": "ISC",
+  "repository" : {"type": "git", "url": "git://github.com/dericeira/slimFormatter.js.git"},
+
 }
