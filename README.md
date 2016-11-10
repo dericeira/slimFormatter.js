@@ -2,6 +2,12 @@
 
 A simple and clean Date, Time Ago and Currency formatter library for Javascript
 
+## Install:
+NPM:
+```
+npm install slim-formatter
+```
+
 
 ## Usage:
 
@@ -28,10 +34,10 @@ var date = slimFormatter.date(1478790151906, 'yyyy-MM-dd HH:mm:ss');
 
 ### Time Ago 
 
-slimFormatter.timeAgo(date, ago_string, hour_string, minute_string, second)_string;
+slimFormatter.timeAgo(date, ago_string, hour_string, minute_string, second_string);
 
 ```js
 var date = timeAgo.date(1478790151906); // x days/minutes/seconds ago
-var date = timeAgo.date('2015-03-25', 'atrás'); // x days atrás
-var date = slimFormatter.date('2015-03-25T12:00:00', '', 'horas'); // x horas
+var date = timeAgo.date('2015-03-25', 'atrás'); // x days/minutes/seconds atrás
+var date = slimFormatter.date('2015-03-25T12:00:00', '', 'horas'); // x horas/minutes/seconds
 ```
