@@ -4,7 +4,7 @@
 	var lib = {};
 
 	//Current version
-	lib.version = '1.0.0';
+	lib.version = '1.0.1';
 
 	//Main settings
 	lib.settings = {
