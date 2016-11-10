@@ -4,7 +4,7 @@
 	var lib = {};
 
 	//Current version
-	lib.version = '1.0.1';
+	lib.version = '1.0.4';
 
 	//Main settings
 	lib.settings = {
@@ -60,12 +60,11 @@
 
 
 	//Date formatter
-	/*
-		format examples:
-			"yyyy-MM-dd HH:mm"
-		    "MM/dd/yyyy hh:mm t"
-		    "MM-yyyy hh:mmt"
-	*/
+	
+	//	format examples:
+    //	"yyyy-MM-dd HH:mm"
+	//	"MM/dd/yyyy hh:mm t"
+	//	"MM-yyyy hh:mmt"
 
 	//Utilitary functions
 	String.repeat = function(chr,count) {    
