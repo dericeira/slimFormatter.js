@@ -1,6 +1,6 @@
 {
   "name": "slim-formatter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Date, Time Ago and Currency formatter library for Javascript",
   "main": "slimFormatter.js",
   "scripts": {

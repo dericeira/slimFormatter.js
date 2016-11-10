@@ -37,7 +37,7 @@ var date = slimFormatter.date(1478790151906, 'yyyy-MM-dd HH:mm:ss');
 slimFormatter.timeAgo(date, ago_string, hour_string, minute_string, second_string);
 
 ```js
-var date = slimFormatter.timeAgo.date(1478790151906); // x days/minutes/seconds ago
-var date = slimFormatter.timeAgo.date('2015-03-25', 'atrás'); // x days/minutes/seconds atrás
+var date = slimFormatter.timeAgo(1478790151906); // x days/minutes/seconds ago
+var date = slimFormatter.timeAgo('2015-03-25', 'atrás'); // x days/minutes/seconds atrás
 var date = slimFormatter.timeAgo('2015-03-25T12:00:00', '', 'horas'); // x horas/minutes/seconds
 ```
