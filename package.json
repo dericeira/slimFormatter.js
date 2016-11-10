@@ -1,0 +1,22 @@
+{
+  "name": "slim-formatter",
+  "version": "1.0.0",
+  "description": "Date, Time Ago and Currency formatter library for Javascript",
+  "main": "slimFormatter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "formatter",
+    "format",
+    "currency",
+    "money",
+    "date",
+    "time",
+    "time",
+    "ago"
+  ],
+  "author": "Daniel Campos",
+  "license": "ISC"
+}
