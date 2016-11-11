@@ -4,7 +4,7 @@
 	var lib = {};
 
 	//Current version
-	lib.version = '1.0.5';
+	lib.version = '1.0.6';
 
 	//Main settings
 	lib.settings = {
@@ -172,10 +172,10 @@
 	        	b += ", " + h + " " + hour;
 	        }
 	    }
-	    else if (Math.floor(s / 3600) > 1) {
+	    else if (Math.floor(s / 3600) >= 1) {
 	        b = Math.floor(s / 3600) + " " + hour;
 	    }
-	    else if (Math.floor(s / 60) > 1) {
+	    else if (Math.floor(s / 60) >= 1) {
 	        b = Math.floor(s / 60) + " " + minute;
 	    }
 	    else {
